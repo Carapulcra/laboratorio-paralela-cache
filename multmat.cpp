@@ -35,5 +35,5 @@ int main() {
     multiplicarMatrices();
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<milliseconds>(stop - start);
-    cout << "Tiempo para tamaño " << MAX << " : "<< duration.count() << "ms" << endl;
+    cout << "Tiempo para tamano " << MAX << " : "<< duration.count() << "ms" << endl;
 }
